@@ -22,6 +22,7 @@ requirements:
   run:
     - colored
     - python >=3.4
+    - numpy
 
 test:
   imports:
