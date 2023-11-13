@@ -1,11 +1,11 @@
-About ansitable
-===============
+About ansitable-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/ansitable-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/petercorke/ansitable
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/ansitable-feedstock/blob/main/LICENSE.txt)
 
 Summary: Quick and easy display of tabular data and matrices with optional ANSI color and borders.
 
