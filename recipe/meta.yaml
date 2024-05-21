@@ -1,5 +1,5 @@
 {% set name = "ansitable" %}
-{% set version = "0.9.10" %}
+{% set version = "0.10.0" %}
 
 
 package:
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/ansitable-{{ version }}.tar.gz
-  sha256: 7cb55000c0bbb5a9157b5d28482f265f3047f9fce8788447277eab2ce97e8b46
+  sha256: 7a13cfa59f42fcdae5cbd5a82497d9b6fd987d9f4c11c42c2adbb13697097bb5
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
