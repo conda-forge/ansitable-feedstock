@@ -1,5 +1,5 @@
 {% set name = "ansitable" %}
-{% set version = "0.11.4" %}
+{% set version = "0.11.5" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/ansitable-{{ version }}.tar.gz
-  sha256: 5d48d756cf7f11395b6edbd8cfc609a82b0fd4115a8ea40a41f48cf91be6e0ed
+  sha256: deecd305f36c66f442872b66e78b69e16b8969eb3f083434780757a3b96dfbe8
 
 build:
   number: 0
@@ -20,6 +20,7 @@ requirements:
     - pip
     - python {{ python_min }}
     - setuptools
+    - hatchling
   run:
     - colored >=2
     - python >={{ python_min }}
