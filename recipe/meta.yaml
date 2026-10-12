@@ -1,5 +1,5 @@
 {% set name = "ansitable" %}
-{% set version = "1.1.1" %}
+{% set version = "1.2.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/ansitable-{{ version }}.tar.gz
-  sha256: f2fe4bf03fdab0b68ef14b5eba57381d8303734e29a618fee5052e3034b562b7
+  sha256: 6da7ff19e986ca02cb64addfd8dbfba8b61054fff8e0efe458b78fd0a2d9ca1b
 
 build:
   number: 0
